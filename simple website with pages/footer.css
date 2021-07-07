@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* =================blog page================== */
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 115px;
+}
+.blog-1{
+    margin: 2px;
+    border: 2px solid black;
+}
+.blog-head{
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ===================Contac Page================================================ */
+.main-con-page{
+    background-image: url(images/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.login-form{
+    position: relative;
+    top: 130px;
+    left: 520px;
+    text-align: center;
+    width: 27%;
+    height: 400px;
+    background-color: #e91e63;
+   box-shadow: 5px 10px 18px #888888;
+   opacity: 0.7;
+}
+.login-form h2{
+    padding: 30px;
+    color: #ffffff;
+}
+.login-form input{
+    padding: 15px;
+    margin: 5px;
+    outline: none;
+    width: 230px;
+    border-radius: 10px;
+    border: none;
+}
+.btn{
+    position: relative;
+    left: 20px;
+    margin-top: 30px;
+    padding: 12px;
+    width: 120px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: #bbbbbb;
+}
+
+/* ===========================new page course ================== */
+.main-page{
+    background-image: url(images/image1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.corser{
+    background-image: url(images/img3.jpg);
+ display: flex;
+   position: relative;
+   top: 120px;
+   
+    width: 90%;
+    margin: auto;
+   height: 400px;
+   /* background-color: #e91e63; */
+}
+.div1{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    /* position: absolute; */
+    display: flex;
+    /* flex-direction: row; */
+    height: 300px;
+    width: 200px;
+   margin: 10px;   
+    /* background-color: teal; */
+}
+.div1 img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5) 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+/* ===========================new page course ================== */
+
+
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    background-color: #24262b;
+    height: 80px;
+}
+nav{
+    display: inline-block;
+
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    margin-left: 650px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 30px;
+    /* margin-right: 0; */
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    /* padding-bottom: 0.125em; */
+    padding-bottom: 7px;
+    transition: border-bottom-color 50ms linear 0s;
+}
+nav ul li a:hover{
+    /* background-color: #e91e63; */
+    border-bottom-color: #e91e63;
+}
+
+
+.full-pages{
+    line-height: 1;
+    height: 100vh;
+    background-image: url(images/img3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ================footer=========================================== */
+.container{
+    /* max-width: 1170px; */
+    /* background-color: red; */
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    position: relative;
+    top: 372px;
+    background-color: #24262b;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 10px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    /* for left 0 strt left side */
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    /* for line hight slim */
+    height: 2px;    
+    box-sizing: border-box;
+    width:80px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
