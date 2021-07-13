@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header | Navbar</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        background: radial-gradient(#fff, #ffd6d6);
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 10px 25px;
+    }
+    nav{
+        flex: 1; 
+        /*the size of all the other element will have the same width*/
+        text-align: right;
+    }
+    nav ul{
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #555;
+    }
+    @media only screen and (max-width : 300px){
+
+    }
+</style>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="log">
+                    <img src="logo.png" class="logo" width="125px" style="cursor: pointer;">
+                </div>
+                <nav>
+                    <ul class="manu-item">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Fashion</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px" style="cursor: pointer;" >
+                <img src="menu.png" width="30px" height="30px" style="cursor: pointer; margin-left : 25px;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
